@@ -16,13 +16,13 @@
         box-shadow: 0 .625rem 1.25rem rbga($color-black,.2);
     
         &::after {
-            transform: scaleX(1.4) scaleY(1.6);
+            transform: scaleX(1.4) scaleY(1.6em);
             opacity: 0;
         }
     }
     &:active {
         transform: translateY(-.0625);
-        box-shadow: 0 .3125rem .625rem rbga($color-black,.2);
+        box-shadow: 0 .3125rem .625em rbga($color-black,.2);
     }
 
     &--white {

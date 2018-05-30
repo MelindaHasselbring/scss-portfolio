@@ -1,4 +1,4 @@
-.footer {
+.fs-footer {
     background-image: linear-gradient(to left bottom, rgba(128, 0, 0, 0.75, rgba(255, 102, 102, 0.5);
     background-color: $color-grey-dark-3;
     padding: 10rem 0;
@@ -23,7 +23,7 @@
         height: auto;
     }
 
-    &__navigation {
+    &__nav {
         border-top: 1px solid $color-grey-dark;
         padding-top: 2rem;
         display: inline-block;

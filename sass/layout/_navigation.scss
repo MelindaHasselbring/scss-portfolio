@@ -1,51 +1,51 @@
-.navigation {
+.fs-nav {
     &__checkbox {
         display: none;
     }
 
     &__button {
         background-color: $color-white;
-        height: 7rem;
-        width: 7rem;
+        height: 4.375em;
+        width: 4.375em;
         position: fixed;
-        top: 6rem;
-        right: 6rem;
+        top: 3.75em;
+        right: 3.75em;
         border-radius: 50%;
         z-index: 2000;
-        box-shadow: 0 1rem 3rem rgba($color-black, .1);
+        box-shadow: 0 .625em 1.875em rgba($color-black, .1);
         text-align: center;
         cursor: pointer;
 
         @include respond(tab-port) {
-            top: 4rem;
-            right: 4rem;
+            top: 2.5em;
+            right: 2.5em;
         }
 
         @include respond(phone) {
-            top: 3rem;
-            right: 3rem;
+            top: 1.875em;
+            right: 1.875em;
         }
     }
-
     &__background {
-        height: 6rem;
-        width: 6rem;
+        height: 3.75em;
+        width: 3.75em;
         border-radius: 50%;
         position: fixed;
-        top: 6.5rem;
-        right: 6.5rem;
+        top: 4.06em;
+        right: 4.06em;
         background-image: radial-gradient($color-primary-light, $color-primary-dark);
         z-index: 1000;
         transition: transform .8s cubic-bezier(0.86, 0, 0.07, 1);
 
         @include respond(tab-port) {
-            top: 4.5rem;
-            right: 4.5rem;
+            top: 2.8125em;
+            right: 2.8125em;
         }
 
         @include respond(phone) {
-            top: 3.5rem;
-            right: 3.5rem;
+            top: 2.1875em;
+            right: 2.1875em;
+
         }
     }
 
@@ -80,9 +80,9 @@
         &:link,
         &:visited {
             display: inline-block;
-            font-size: 3rem;
+            font-size: 1.875em;
             font-weight: 300;
-            padding: 1rem 2rem;
+            padding: .625em 1.25em;
             color: $color-white;
             text-decoration: none;
             text-transform: uppercase;
@@ -91,7 +91,7 @@
             transition: all .4s;
 
             span {
-                margin-right: 1.5rem;
+                margin-right:  .9375em;
                 display: inline-block;
             }
         }
@@ -100,7 +100,7 @@
         &:active {
             background-position: 100%;
             color: $color-primary;
-            transform: translateX(1rem);
+            transform: translateX(.625);
         }
     }
 
@@ -119,12 +119,12 @@
     //ICON
     &__icon {
         position: relative;
-        margin-top: 3.5rem;
+        margin-top:  2.1875em;
 
         &,
         &::before,
         &::after {
-            width: 3rem;
+            width:  2.1875em;
             height: 2px;
             background-color: $color-grey-dark-3;
             display: inline-block;
@@ -138,8 +138,8 @@
             transition: all .2s;
         }
 
-        &::before { top: -.8rem; }
-        &::after { top: .8rem; }
+        &::before { top: -.5em; }
+        &::after { top: .5em; }
     }
 
     &__button:hover &__icon::before {
