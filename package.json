@@ -1,0 +1,25 @@
+{
+  "name": "scss-portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MelindaHasselbring/scss-portfolio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MelindaHasselbring/scss-portfolio/issues"
+  },
+  "homepage": "https://github.com/MelindaHasselbring/scss-portfolio#readme",
+  "devDependencies": {
+    "node-sass": "^4.9.0"
+  },
+  "dependencies": {
+    "jQuery": "^1.7.4"
+  }
+}
