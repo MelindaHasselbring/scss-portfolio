@@ -1,0 +1,105 @@
+body {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.7;
+    color: $color-grey-dark;
+    // padding: 1.875rem;
+}
+.fs-header {
+    padding: 3rem;
+
+}
+/*.heading-primary  Yes, */
+.fs-main-heading {   
+    padding: 1.875rem;
+    color: $color-white;
+    text-transform: uppercase;
+    backface-visibility: hidden;
+    margin-bottom: 3.75rem;
+
+    /*Yes*/
+    &--primary1 {
+        display: block;
+        font-size: 3rem;
+        font-weight: 700;
+        letter-spacing: .5em;
+        
+        animation: moveInDown 3s ease-out;
+    }
+    /*I CAN BUILD THAT*/
+    &--primary2 {
+        display: block;
+        font-size: 2rem;
+        font-weight: 700;
+        letter-spacing: .5rem;
+        
+        animation-name: moveInLeft;
+        animation-duration: 4s;
+    }
+    /*LET'S START!*/
+    &--sub {
+        display: block;
+        font-size: $default-font-size;
+        font-weight: 700;
+        letter-spacing: .4rem;
+
+        animation-name: moveInRight;
+        animation-duration: 3s;
+        animation-timing-function: ease-out;
+        animation: moveInRight 3s ease-out
+    }
+}
+
+.fs-heading-2 {
+    padding: 1.875rem;
+    font-size: 2.1875rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    background-image: linear-gradient($color-primary-light, $color-primary-dark);
+    display:inline-block;
+    -webkit-background-clip: text;
+    color: transparent;
+    margin-top:  12rem;
+    letter-spacing: .3rem;
+    transition: all .6s;
+
+
+    &:hover {
+        transform: skew(2deg) skewX(15deg) scale(1.2)translate(30px, 20px) rotate(5deg);
+        text-shadow: .75rem 1.5rem 3rem rbga(255, 102,102, .8);
+    }
+}
+
+.fs-heading-3 {
+    padding-left: 1rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: $default-font-size;
+
+    &:first-child {
+        padding-top: 1em;
+    }
+}
+.fs-heading-4 {
+    padding-left: 1rem;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: $default-font-size;
+
+    &:first-child {
+        padding-top: 1em;
+    }
+
+
+}
+.fs-paragraph {
+    padding:1rem 1rem 1rem;
+    font-size: 1em;
+
+
+    &:not(:last-child) {
+        margin-bottom: 1.875em;
+    }
+}
+

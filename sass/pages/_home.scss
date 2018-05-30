@@ -1,0 +1,35 @@
+.fs-section-current-proj {
+     background-image: linear-gradient(to left bottom, rgba(236,236,236, 0.75), rgba(211, 211, 211, 0.5)), url('../img/7.png');
+    background-color: $color-grey-light-1;
+    padding: 15.625 0;
+    margin-top: -24vh;
+    height: 900px;
+    background-size: cover;
+    
+}
+
+.fs-section-projects {
+    padding: 15.625 0;
+    background-image: linear-gradient(to left bottom, rgba(128, 0, 0, 0.75), (rgba(255, 102, 102, 0.5))), url('../img/fs1.jpg');
+    background-size: cover;
+    background-color: $color-quaternary-light;
+    margin-top: -8vh;
+    height: 900px;
+    transform: skewY(5deg);
+
+    & > * {
+        transform: skewY(-5deg);
+    }
+}
+
+.fs-section-project {
+     background-image: linear-gradient(to left bottom, rgba(236,236,236, 0.75), rgba(211, 211, 211, 0.5)), url('../img/fs3.jpg');
+    background-color: $color-grey-light-1;
+    padding: 15.625 0;
+    margin-top: -21vh;
+    height: 900px;
+    background-size: cover;
+   
+    
+}
+
